@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root{
+   --dark-cyan: hsl(185, 75%, 39%);
+--very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--dark-grayish-blue: hsl(227, 10%, 46%);
+--dark-gray: hsl(0, 0%, 59%);
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+   background-color: var(--dark-cyan);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.img-container{
+    position: absolute;
+    top: 85px;
+    
+    
+}
+.img-container img{
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    
+}
+.name{
+    margin-top: 60px;
+    padding-bottom: 40px;
+    
+    
+}
+.name h3{
+    
+    margin-top: 6px;
+    text-align: center;
+    color: hsl(227, 10%, 46%);
+    
+}
+.age {
+    color: hsl(227, 10%, 46%);
+    
+    margin-left: 10px;
+}
+.bottom{
+    display: flex;
+    width: 90%;
+    padding: 40px 20px 20px 20px;
+    /* padding-top: 40px;
+    padding-bottom: 20px; */
+    border-top: 1px solid hsl(0, 0%, 59%) ;
+    justify-content: space-around;
+    
+}
+h4{
+    color: var(--very-dark-desaturated-blue);
+    
+}
+
+/* Do it with margin-left, etc */
+.followers h4{
+    
+    margin-left: 12px;
+}
+.likes h4 {
+    margin-left: -6px;
+}
+.photos h4{
+    margin-left: 4px;
+}
+p{
+    font-size: 14px;
+    color: hsl(227, 10%, 46%);
+}
+
+    
+
+
+
+ 
